@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-26",
+  "scope": "王品集團官網台灣品牌版圖所列餐廳品牌，含在台經營的授權品牌",
+  "primarySource": "https://www.wowprime.com/zh-tw/business/strategy",
+  "verification": "透過網頁讀取確認集團台灣品牌列表；18 個品牌另核對官方網站 HTML，2 個品牌僅有集團連結的官方 Facebook 專頁",
+  "included": [
+    "wangsteak",
+    "tasty",
+    "giguo",
+    "12hotpot",
+    "chinhuajiao",
+    "12mini",
+    "wagyushabu",
+    "godguo",
+    "yakiyan",
+    "powerofmeat",
+    "chingu",
+    "chamonix",
+    "itamae",
+    "joxiang",
+    "ikki",
+    "tokiya",
+    "pinnada",
+    "putien",
+    "xiangduck",
+    "veggtable"
+  ],
+  "excluded": [
+    {
+      "name": "王品瘋美食購物網",
+      "reason": "集團台灣品牌頁的零售／電商品牌，非餐廳"
+    },
+    {
+      "name": "王品牛排（中國）",
+      "reason": "中國營運資料，與台灣品牌分開；不重複建島"
+    },
+    {
+      "name": "西堤牛排（中國）",
+      "reason": "中國營運資料，與台灣品牌分開；不重複建島"
+    },
+    { "name": "AMINO AMIGO", "reason": "集團頁列於中國品牌範圍" },
+    { "name": "THE WANG", "reason": "集團頁列於中國品牌範圍" },
+    { "name": "雲彩坡", "reason": "集團頁列於中國品牌範圍" },
+    {
+      "name": "初瓦、嚮辣／向辣、最肉、旬嚐、朝粥幫、hot 7 及其他舊品牌",
+      "reason": "本次集團台灣現行品牌版圖未列示；不以舊新聞、舊徵才頁或舊菜單推定目前營運。此處不作個別歇業日期的斷言"
+    }
+  ],
+  "limitations": [
+    "集團首頁品牌總數可能涵蓋不同地區或分類，並非台灣現營餐廳數，未直接套用",
+    "集團品牌版圖直接 HTTP 採集遇到 Request Rejected；採集工具會回報失敗，不以拒絕頁替換資料",
+    "阪前與就饗僅保留集團提供的官方社群入口，未填入無法核實的菜單或訂位網址",
+    "品牌官網成功讀取與官網列示，不代表已驗證每一間門市的即時營運狀態",
+    "門市地址、營業時間、即時菜單價格與訂位交易不在本版資料範圍"
+  ]
+}

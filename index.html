@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f4f1e8" />
+    <meta
+      name="description"
+      content="一座品牌島，每一種相聚。走進王品集團的 3D 品牌群島，探索台灣餐廳品牌、代表料理與相聚的滋味。"
+    />
+    <title>王品品牌島｜每一種相聚，都有一座島</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#brand-search">跳至品牌搜尋</a>
+    <main id="app">
+      <div class="sea-grain" aria-hidden="true"></div>
+      <div id="stage"></div>
+      <header class="site-header">
+        <a class="identity" href="/" aria-label="王品品牌島首頁"
+          ><span class="brand-mark" aria-hidden="true">W<span>●</span></span
+          ><span class="wordmark"
+            >王品<span class="wordmark-sub">品牌島</span
+            ><small>WOWPRIME BRAND ISLANDS</small></span
+          ></a
+        >
+        <div class="header-note">
+          <span class="status-dot"></span>一起好好吃，讓美味連起來。
+        </div>
+        <nav class="top-nav" aria-label="地圖操作">
+          <button id="overview" class="pill" title="回到全景">
+            <span data-icon="expand"></span><span>全景</span></button
+          ><button
+            id="index-toggle"
+            class="pill"
+            aria-controls="index-panel"
+            aria-expanded="true"
+          >
+            <span data-icon="list"></span><span>品牌清單</span></button
+          ><button id="help" class="round" aria-label="探索指南">?</button>
+        </nav>
+      </header>
+      <section class="hero-note" aria-label="品牌島介紹">
+        <div class="eyebrow"><span></span>A TASTE OF TOGETHERNESS</div>
+        <h1>一座品牌島，<br />每一種相聚。</h1>
+        <p>從一份熟悉的美味開始，<br />探索屬於你的相聚風景。</p>
+        <div class="hero-count">
+          <strong id="total-count">20</strong
+          ><span>餐廳品牌<span class="slash">／</span>無數個好好吃的理由</span>
+        </div>
+      </section>
+      <aside id="index-panel" class="index-panel" aria-label="品牌清單">
+        <div class="index-title">
+          <span class="eyebrow">THE BRAND INDEX</span
+          ><span id="result-count" class="count-badge"></span
+          ><button
+            id="index-close"
+            class="icon-button mobile-only"
+            aria-label="關閉品牌清單"
+          >
+            <span data-icon="close"></span>
+          </button>
+        </div>
+        <label class="searchbox"
+          ><span data-icon="search"></span
+          ><input
+            id="brand-search"
+            type="search"
+            placeholder="尋找品牌、料理、好滋味…"
+            aria-label="搜尋品牌或代表料理"
+          /><kbd>/</kbd></label
+        >
+        <div class="index-tabs" role="tablist" aria-label="清單內容">
+          <button
+            id="brands-tab"
+            aria-controls="brand-list"
+            role="tab"
+            aria-selected="true"
+          >
+            全部品牌</button
+          ><button
+            id="relations-tab"
+            aria-controls="brand-list"
+            role="tab"
+            aria-selected="false"
+          >
+            品牌關係 <span>↗</span>
+          </button>
+        </div>
+        <div
+          id="brand-list"
+          class="brand-list"
+          role="tabpanel"
+          aria-labelledby="brands-tab"
+        ></div>
+        <div class="index-foot">
+          <span class="small-dot"></span><span>選一個品牌，走進它的島嶼</span
+          ><span>↗</span>
+        </div>
+      </aside>
+      <article id="detail" class="detail" hidden aria-labelledby="detail-title">
+        <button
+          id="detail-close"
+          class="detail-close round"
+          aria-label="關閉品牌介紹"
+        >
+          <span data-icon="close"></span>
+        </button>
+        <div id="detail-content"></div>
+      </article>
+      <div id="map-hint" class="map-hint">
+        <span data-icon="mouse"></span
+        ><span>拖曳旋轉 · 滾動縮放 · 點選島嶼探索</span>
+      </div>
+      <nav
+        id="category-dock"
+        class="category-dock"
+        aria-label="料理類別篩選"
+      ></nav>
+      <div class="scene-tools" role="toolbar" aria-label="場景顯示">
+        <button id="names" aria-pressed="true">
+          <span data-icon="tag"></span><span>名牌</span></button
+        ><button id="connections" aria-pressed="false">
+          <span data-icon="link"></span><span>關係</span></button
+        ><button id="bird" aria-pressed="false">
+          <span data-icon="layers"></span><span>鳥瞰</span></button
+        ><button id="pause" aria-pressed="false">
+          <span data-icon="pause"></span><span>暫停</span></button
+        ><button id="log-toggle" aria-pressed="false" aria-controls="scene-log">
+          <span data-icon="journal"></span><span>日誌</span>
+        </button>
+      </div>
+      <aside id="scene-log" class="scene-log" hidden>
+        <div class="log-heading">
+          <div>
+            <div class="eyebrow">ISLAND JOURNAL</div>
+            <h2>島嶼小日誌</h2>
+          </div>
+          <button id="log-close" class="icon-button" aria-label="關閉日誌">
+            <span data-icon="close"></span>
+          </button>
+        </div>
+        <p class="simulation-note">場景演示動畫 · 非即時營運資訊</p>
+        <ol id="log-entries"></ol>
+      </aside>
+      <section class="time-controls" aria-label="時間與品牌沿革">
+        <div class="time-tabs" role="tablist">
+          <button
+            id="day-tab"
+            role="tab"
+            aria-selected="true"
+            aria-controls="day-panel"
+          >
+            <span>01</span> 美味的一天</button
+          ><button
+            id="history-tab"
+            role="tab"
+            aria-selected="false"
+            aria-controls="history-panel"
+          >
+            <span>02</span> 品牌沿革</button
+          ><span class="time-status">SCENE TIME</span>
+        </div>
+        <div id="day-panel" role="tabpanel" aria-labelledby="day-tab">
+          <div class="slider-line">
+            <button
+              id="day-play"
+              class="icon-button"
+              aria-label="播放場景日夜"
+              aria-pressed="false"
+            >
+              <span data-icon="play"></span></button
+            ><output id="clock" for="day-range">12:00</output
+            ><input
+              id="day-range"
+              type="range"
+              min="0"
+              max="1439"
+              value="720"
+              aria-label="場景時間"
+            /><span data-icon="sun"></span>
+          </div>
+          <div class="slider-ticks">
+            <span>00:00</span><span>06:00</span><span>12:00</span
+            ><span>18:00</span><span>24:00</span>
+          </div>
+        </div>
+        <div
+          id="history-panel"
+          role="tabpanel"
+          aria-labelledby="history-tab"
+          hidden
+        >
+          <div class="slider-line">
+            <output id="year-output" for="year-range">2026</output
+            ><input
+              id="year-range"
+              type="range"
+              min="1993"
+              max="2026"
+              value="2026"
+              aria-label="品牌成立年份上限"
+            /><button id="year-reset" class="text-button">全部</button>
+          </div>
+          <div class="history-note">
+            依集團品牌頁的成立年份，回看品牌成長足跡。
+          </div>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <span>每一種相聚，都有一座島。</span
+        ><button id="about">非官方展示 · 資料與來源 ↗</button
+        ><span class="footer-coordinates">TAIWAN &nbsp; 23°41′N 120°58′E</span>
+      </footer>
+      <div
+        id="announcement"
+        class="sr-only"
+        role="status"
+        aria-live="polite"
+      ></div>
+      <div id="loading" class="loading">
+        <div class="loading-symbol">W<span>●</span></div>
+        <p>正在準備，一場美味的相聚…</p>
+      </div>
+      <dialog id="guide" class="guide">
+        <button
+          id="guide-close"
+          class="round guide-close"
+          aria-label="關閉指南"
+        >
+          <span data-icon="close"></span>
+        </button>
+        <div class="eyebrow">WELCOME TO BRAND ISLANDS</div>
+        <div class="guide-number">01 — 20</div>
+        <h2>今天，想在哪座島相聚？</h2>
+        <p>
+          每一座小島，都是一種熟悉的美味。<br />跟著品牌走一走，發現下一次相聚的理由。
+        </p>
+        <div class="guide-steps">
+          <div>
+            <span data-icon="mouse"></span><strong>轉一轉</strong
+            ><span>拖曳旋轉，滾動縮放</span>
+          </div>
+          <div>
+            <span data-icon="pin"></span><strong>點一點</strong
+            ><span>走進品牌，看招牌好菜</span>
+          </div>
+          <div>
+            <span data-icon="link"></span><strong>連起來</strong
+            ><span>探索料理與集團關係</span>
+          </div>
+        </div>
+        <button id="guide-start" class="primary-button">
+          開始探索品牌島 <span>↗</span></button
+        ><button id="tour-start" class="text-button">
+          或跟著我們，逛逛六種美味 →
+        </button>
+      </dialog>
+      <dialog id="about-dialog" class="about-dialog">
+        <button
+          id="about-close"
+          class="round guide-close"
+          aria-label="關閉資料說明"
+        >
+          <span data-icon="close"></span>
+        </button>
+        <div class="eyebrow">ABOUT THIS EXPLORATION</div>
+        <h2>關於這座品牌島</h2>
+        <p>
+          本網站為非官方互動展示，與王品集團無隸屬或合作關係。品牌名稱及商標權利屬各權利人。
+        </p>
+        <p>
+          內容以王品集團「品牌發展與版圖」台灣餐廳名單為基礎，核對日期為 2026 年
+          10 月 26
+          日。成立年份依集團在台品牌頁，餐點為代表料理，實際供應以官方最新菜單為準。
+        </p>
+        <p>
+          群島位置、建築與人物為原創場景示意，不對應真實門市。料理分類為編輯分組；日夜、人物與日誌為演示，不反映營業時間、客流或物流。
+        </p>
+        <div class="about-links">
+          <a
+            href="https://www.wowprime.com/zh-tw/business/strategy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >王品集團品牌版圖 ↗</a
+          ><a
+            href="https://puma.taipei/heart-island"
+            target="_blank"
+            rel="noopener noreferrer"
+            >互動參考：HEART 政策島 ↗</a
+          ><a
+            href="https://github.com/morluto/rea"
+            target="_blank"
+            rel="noopener noreferrer"
+            >研究方法參考：REA ↗</a
+          >
+        </div>
+      </dialog>
+      <div id="tour-bar" class="tour-bar" hidden>
+        <span id="tour-caption"></span><button id="tour-next">下一站 →</button
+        ><button id="tour-exit" aria-label="離開導覽">×</button>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

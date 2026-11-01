@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-26",
+  "selection": "三道招牌精選，非官方名次或即時菜單保證",
+  "brands": [
+    {
+      "brandId": "wangsteak",
+      "dishes": ["王品牛小排", "黑松露紐約客", "香烤豬大排"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "tasty",
+      "dishes": ["原塊牛排", "墨西哥辣味炙燒牛排", "牛仔香酥海鮮拼盤"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/260821",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "giguo",
+      "dishes": ["海陸瀑布聚", "肉肉瀑布聚", "札幌熊牛奶湯"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "12hotpot",
+      "dishes": ["石頭鍋", "涮涮鍋", "檸檬冬瓜冰沙"],
+      "source": "https://www.12hotpot.com.tw/",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "chinhuajiao",
+      "dishes": ["青紅雙鍋", "牛三拼", "青花椒啤酒"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "12mini",
+      "dishes": ["大漠孜然鍋", "金湯酸魚鍋", "剝皮辣椒鍋"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/260410",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "wagyushabu",
+      "dishes": ["和牛炙燒壽司", "和牛涮煮", "和牛黑咖哩飯"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "godguo",
+      "dishes": ["剝皮辣椒雞鍋", "蒜頭蛤蜊雞鍋", "主廚特製油蔥雞"],
+      "source": "https://www.godguo.com.tw/photo_room/1768358607373.jpg",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "yakiyan",
+      "dishes": ["煙燻安格斯牛排", "日式燒肉", "現做甜點"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "powerofmeat",
+      "dishes": ["現切牛排", "味噌醬燒胸腹牛", "定番昇龍豚"],
+      "source": "https://www.powerofmeat.com.tw/photo_room/1790227291934.jpg",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "chingu",
+      "dishes": ["黃金鑄鐵燒豬五花", "起司豬五花", "醬羅勒豬五花"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "chamonix",
+      "dishes": ["白蘭地鴨胸", "煙燻澳洲和牛", "香煎羊排佐薄荷醬"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/251112",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "itamae",
+      "dishes": ["日本 A5 黑毛和牛", "澳洲 M8–9 和牛", "龍蝦二吃"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "joxiang",
+      "dishes": ["原塊牛排海陸", "香酥雞腿排", "火大鹽焗蝦（概念店限定）"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/260805",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "ikki",
+      "dishes": ["和牛岩板燒", "產地直送刺身盛宴", "明太子龍蝦佐炙烤牛排"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/260921",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "tokiya",
+      "dishes": ["香蒜瓦片牛肉", "果香酥烤鴨胸", "和牛漢堡排 × 炙烤牛排"],
+      "source": "https://www.tokiya.com.tw/photo_room/1779853360576.jpg",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "pinnada",
+      "dishes": ["厚切腰內豬排", "醬烤板腱牛排定食", "香烤豚雞雙拼定食"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/260303",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "putien",
+      "dishes": ["辣椒螃蟹", "翠玉白菜燉軟豆腐", "莆田滷麵"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "xiangduck",
+      "dishes": ["招牌片皮烤鴨", "功夫鴨絲粥", "金沙豆腐煲"],
+      "source": "https://www.wowprime.com/zh-tw/news/media/190701-xd-html",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    },
+    {
+      "brandId": "veggtable",
+      "dishes": ["丰禾起家雞", "魷魚螺肉蒜", "丰味酸菜魚"],
+      "source": "https://www.wowprime.com/zh-tw/business/strategy",
+      "note": "依官方品牌介紹／菜單挑選三道代表品項，含經典餐點，非銷量排名；限定品項依門市及季節供應"
+    }
+  ]
+}

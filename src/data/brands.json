@@ -1,0 +1,668 @@
+[
+  {
+    "id": "wangsteak",
+    "name": "王品牛排",
+    "english": "WANG STEAK",
+    "category": "steak",
+    "founded": 1993,
+    "tagline": "只款待心中最重要的人",
+    "description": "以經典牛小排與細緻套餐，為值得紀念的相聚時刻，安排一場有儀式感的西式饗宴。",
+    "dishes": ["王品牛小排", "黑松露紐約客", "香烤豬大排"],
+    "color": "#a6383a",
+    "official": "https://www.wangsteak.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wangsteak.com.tw/",
+        "title": "王品牛排｜只款待心中最重要的人",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.wangsteak.com.tw/dishes.php",
+    "reservation": "https://wowfoods.cc/reserve_wangsteak"
+  },
+  {
+    "id": "tasty",
+    "name": "西堤牛排",
+    "english": "TASTY",
+    "category": "steak",
+    "founded": 2001,
+    "tagline": "讓相聚，多一點熱情",
+    "description": "以原塊牛排為主角，搭配多道式套餐與明亮的用餐空間，享受輕鬆愉快的西式料理。",
+    "dishes": ["原塊牛排", "墨西哥辣味炙燒牛排", "牛仔香酥海鮮拼盤"],
+    "color": "#c24e3d",
+    "official": "https://www.tasty.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.tasty.com.tw/",
+        "title": "TASTy西堤牛排",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/260821",
+        "title": "王品集團｜西堤品牌餐點介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.tasty.com.tw/menu/list.php",
+    "reservation": "https://wowfoods.cc/reserve_tasty"
+  },
+  {
+    "id": "giguo",
+    "name": "聚 日式鍋物",
+    "english": "GIGUO",
+    "category": "hotpot",
+    "founded": 2004,
+    "tagline": "美味相聚，隨心所欲",
+    "description": "以日式鍋物與多樣湯頭，搭配肉品和新鮮時蔬，把一餐的暖意留給一起相聚的人。",
+    "dishes": ["海陸瀑布聚", "肉肉瀑布聚", "札幌熊牛奶湯"],
+    "color": "#ce7349",
+    "official": "https://www.giguo.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.giguo.com.tw/",
+        "title": "聚 日式鍋物",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.giguo.com.tw/menu-list.php",
+    "reservation": "https://wowfoods.cc/reserve_giguo"
+  },
+  {
+    "id": "12hotpot",
+    "name": "石二鍋",
+    "english": "12 HOTPOT",
+    "category": "hotpot",
+    "founded": 2009,
+    "tagline": "新鮮與簡單，就很美味",
+    "description": "以石頭鍋、涮涮鍋與看得見的新鮮食材，帶來日常也能輕鬆享受的個人鍋物。",
+    "dishes": ["石頭鍋", "涮涮鍋", "檸檬冬瓜冰沙"],
+    "color": "#728858",
+    "official": "https://www.12hotpot.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.12hotpot.com.tw/",
+        "title": "石二鍋",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.12hotpot.com.tw/menu-list.php"
+  },
+  {
+    "id": "chinhuajiao",
+    "name": "青花驕",
+    "english": "CHIN HUA JIAO",
+    "category": "hotpot",
+    "founded": 2018,
+    "tagline": "鮮麻椒香，解憂暢饗",
+    "description": "以青花椒香氣與麻辣鍋為特色，透過青紅雙鍋呈現不同層次的辛香與鮮麻。",
+    "dishes": ["青紅雙鍋", "牛三拼", "青花椒啤酒"],
+    "color": "#417b73",
+    "official": "https://www.chinhuajiao.com/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.chinhuajiao.com/",
+        "title": "青花驕 - 我辣故我在",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.chinhuajiao.com/ingredients.php",
+    "reservation": "https://wowfoods.cc/reserve_chinhuajiao"
+  },
+  {
+    "id": "12mini",
+    "name": "12MINI",
+    "english": "12 MINI",
+    "category": "hotpot",
+    "founded": 2018,
+    "tagline": "一鍋快煮，料爽味足",
+    "description": "將湯頭、原塊肉品、蔬菜與配料煮好上桌，讓想吃鍋的日常多一種方便選擇。",
+    "dishes": ["大漠孜然鍋", "金湯酸魚鍋", "剝皮辣椒鍋"],
+    "color": "#d7a84b",
+    "official": "https://www.12mini.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.12mini.com.tw/",
+        "title": "12mini",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/260410",
+        "title": "王品集團｜12mini 主打鍋物介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.12mini.com.tw/menu.php"
+  },
+  {
+    "id": "wagyushabu",
+    "name": "和牛涮",
+    "english": "WAGYU SHABU",
+    "category": "hotpot",
+    "founded": 2020,
+    "tagline": "和牛入魂，涮個痛快",
+    "description": "以和牛鍋物放題為主軸，結合炙燒壽司、涮煮與咖哩等吃法，享受豐富的一餐。",
+    "dishes": ["和牛炙燒壽司", "和牛涮煮", "和牛黑咖哩飯"],
+    "color": "#956245",
+    "official": "https://www.wagyushabu.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wagyushabu.com.tw/",
+        "title": "和牛涮日式鍋物放題",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.wagyushabu.com.tw/index.php#menu",
+    "reservation": "https://inline.app/booking/-MM-iYDHB1_BTKd0cy5Q:inline-live-2/-MM-iYLgaNgE0O6unAPu?utm_source=web"
+  },
+  {
+    "id": "godguo",
+    "name": "尬鍋",
+    "english": "GOD GUO",
+    "category": "hotpot",
+    "founded": 2021,
+    "tagline": "一鍋雙饗，神雞妙涮",
+    "description": "把台灣熟悉的雞湯風味融入鍋物，搭配復古台潮氛圍，讓相聚多一點熱鬧。",
+    "dishes": ["剝皮辣椒雞鍋", "蒜頭蛤蜊雞鍋", "主廚特製油蔥雞"],
+    "color": "#d17d44",
+    "official": "https://www.godguo.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.godguo.com.tw/",
+        "title": "尬鍋 台式潮鍋",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.godguo.com.tw/photo_room/1768358607373.jpg",
+        "title": "尬鍋｜官方菜單：台式熟食",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.godguo.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_godguo"
+  },
+  {
+    "id": "yakiyan",
+    "name": "原燒",
+    "english": "YAKIYAN",
+    "category": "bbq",
+    "founded": 2004,
+    "tagline": "輕鬆享受好燒肉",
+    "description": "以日式燒肉與豐盛的沙拉烤物，打造自在的用餐氣氛，適合與親友一起享受炭火香。",
+    "dishes": ["煙燻安格斯牛排", "日式燒肉", "現做甜點"],
+    "color": "#9d6553",
+    "official": "https://www.yakiyan.com/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.yakiyan.com/",
+        "title": "原燒│日式燒肉",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.yakiyan.com/menu-list.php",
+    "reservation": "https://wowfoods.cc/reserve_yakiyan"
+  },
+  {
+    "id": "powerofmeat",
+    "name": "肉次方",
+    "english": "POWER OF MEAT",
+    "category": "bbq",
+    "founded": 2021,
+    "tagline": "極致肉欲，欲罷不能",
+    "description": "以原塊牛肉與燒肉放題為核心，讓喜歡燒烤的人自在探索不同肉品的風味。",
+    "dishes": ["現切牛排", "味噌醬燒胸腹牛", "定番昇龍豚"],
+    "color": "#575a68",
+    "official": "https://www.powerofmeat.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.powerofmeat.com.tw/",
+        "title": "肉次方 燒肉放題",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.powerofmeat.com.tw/photo_room/1790227291934.jpg",
+        "title": "肉次方｜官方菜單：真實の肉",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.powerofmeat.com.tw/menu-page",
+    "reservation": "https://wowfoods.cc/reserve_powerofmeat"
+  },
+  {
+    "id": "chingu",
+    "name": "金咕",
+    "english": "CHINGU",
+    "category": "bbq",
+    "founded": 2023,
+    "tagline": "朋友，一起吃肉才會熟",
+    "description": "以厚切豬五花、韓式烤肉與熱鍋料理，把朋友圍桌一起吃肉的氣氛帶進餐廳。",
+    "dishes": ["黃金鑄鐵燒豬五花", "起司豬五花", "醬羅勒豬五花"],
+    "color": "#d2a044",
+    "official": "https://www.chingubbq.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.chingubbq.com.tw/",
+        "title": "金咕친구 韓式原塊烤肉",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.chingubbq.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_chingubbq"
+  },
+  {
+    "id": "chamonix",
+    "name": "夏慕尼",
+    "english": "CHAMONIX",
+    "category": "teppan",
+    "founded": 2005,
+    "tagline": "肩並肩的浪漫",
+    "description": "以鐵板料理結合法式料理的細膩，從師傅的現場烹調到餐桌服務，品味一場浪漫饗宴。",
+    "dishes": ["白蘭地鴨胸", "煙燻澳洲和牛", "香煎羊排佐薄荷醬"],
+    "color": "#796a92",
+    "official": "https://www.chamonix.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.chamonix.com.tw/",
+        "title": "夏慕尼新香榭鐵板燒",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/251112",
+        "title": "王品集團｜夏慕尼品牌料理介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.chamonix.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_chamonix"
+  },
+  {
+    "id": "itamae",
+    "name": "阪前",
+    "english": "ITAMAE",
+    "category": "teppan",
+    "founded": 2022,
+    "tagline": "板前此刻，精心時刻",
+    "description": "以日澳和牛、時令海鮮與鐵板料理技法，在細緻安靜的空間裡感受食材風味。",
+    "dishes": ["日本 A5 黑毛和牛", "澳洲 M8–9 和牛", "龍蝦二吃"],
+    "color": "#526672",
+    "official": "https://www.facebook.com/itamae.tw",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "id": "joxiang",
+    "name": "就饗",
+    "english": "JO XIANG",
+    "category": "teppan",
+    "founded": 2023,
+    "tagline": "澎湃海陸，熱饗鮮香",
+    "description": "現點現做的鐵板燒結合牛排與海鮮，將熱騰騰的海陸料理帶入日常用餐。",
+    "dishes": ["原塊牛排海陸", "香酥雞腿排", "火大鹽焗蝦（概念店限定）"],
+    "color": "#d27543",
+    "official": "https://www.facebook.com/joxiang.official",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/260805",
+        "title": "王品集團｜就饗概念店料理介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "id": "ikki",
+    "name": "藝奇",
+    "english": "IKKI",
+    "category": "japanese",
+    "founded": 2005,
+    "tagline": "極炙鮮美，岩燒日料",
+    "description": "以岩板燒與日式料理呈現食材的鮮美，在熱岩板上感受香氣與口感的變化。",
+    "dishes": ["和牛岩板燒", "產地直送刺身盛宴", "明太子龍蝦佐炙烤牛排"],
+    "color": "#ac4241",
+    "official": "https://www.ikki.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.ikki.com.tw/",
+        "title": "藝奇 日式料理",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/260921",
+        "title": "王品集團｜藝奇人氣雙主餐介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "reservation": "https://wowfoods.cc/reserve_ikki"
+  },
+  {
+    "id": "tokiya",
+    "name": "陶板屋",
+    "english": "TOKIYA",
+    "category": "japanese",
+    "founded": 2002,
+    "tagline": "家人的美味關係",
+    "description": "以和風洋食與溫馨的用餐空間，為家人朋友的每一次聚餐，準備細緻而親切的滋味。",
+    "dishes": ["香蒜瓦片牛肉", "果香酥烤鴨胸", "和牛漢堡排 × 炙烤牛排"],
+    "color": "#7e6c9a",
+    "official": "https://www.tokiya.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.tokiya.com.tw/",
+        "title": "陶板屋 和風洋食",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.tokiya.com.tw/photo_room/1779853360576.jpg",
+        "title": "陶板屋｜官方春夏菜單：主餐",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.tokiya.com.tw/menu.php"
+  },
+  {
+    "id": "pinnada",
+    "name": "品田牧場",
+    "english": "PINNADA",
+    "category": "japanese",
+    "founded": 2007,
+    "tagline": "品味好豬排，幸福滿心田",
+    "description": "專注現點現炸的日式豬排，讓金黃麵衣與鮮嫩肉汁，成為一餐簡單滿足的主角。",
+    "dishes": ["厚切腰內豬排", "醬烤板腱牛排定食", "香烤豚雞雙拼定食"],
+    "color": "#ab8c53",
+    "official": "https://www.pinnada.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.pinnada.com.tw/",
+        "title": "品田牧場",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/260303",
+        "title": "王品集團｜品田牧場新日式定食介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.pinnada.com.tw/menu.php"
+  },
+  {
+    "id": "putien",
+    "name": "莆田",
+    "english": "PUTIEN",
+    "category": "chinese",
+    "founded": 2015,
+    "tagline": "把功夫，留給好味道",
+    "description": "提供新加坡特色料理與莆田佳餚，以功夫菜與分享式餐點，為大小聚餐添上好滋味。",
+    "dishes": ["辣椒螃蟹", "翠玉白菜燉軟豆腐", "莆田滷麵"],
+    "color": "#60949d",
+    "official": "https://www.putien.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.putien.com.tw/",
+        "title": "莆田PUTIEN",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.putien.com.tw/dishes.php",
+    "reservation": "https://wowfoods.cc/reserve_putien"
+  },
+  {
+    "id": "xiangduck",
+    "name": "享鴨",
+    "english": "XIANG DUCK",
+    "category": "chinese",
+    "founded": 2018,
+    "tagline": "一隻好鴨，一桌好菜",
+    "description": "專注功夫烤鴨與現代中華料理，三五好友也能自在相聚，分享片皮烤鴨與一桌佳餚。",
+    "dishes": ["招牌片皮烤鴨", "功夫鴨絲粥", "金沙豆腐煲"],
+    "color": "#ce7946",
+    "official": "https://www.xiangduck.com.tw/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.xiangduck.com.tw/",
+        "title": "XIANG DUCK 享鴨",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.wowprime.com/zh-tw/news/media/190701-xd-html",
+        "title": "王品集團｜享鴨經典功夫菜介紹",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.xiangduck.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_xiangduck"
+  },
+  {
+    "id": "veggtable",
+    "name": "丰禾",
+    "english": "FENG HE",
+    "category": "chinese",
+    "founded": 2019,
+    "tagline": "經典台菜，新丰味",
+    "description": "以在地食材與熟悉台菜翻玩風味，從起家雞到經典手路菜，讓相聚吃得豐盛又親切。",
+    "dishes": ["丰禾起家雞", "魷魚螺肉蒜", "丰味酸菜魚"],
+    "color": "#7a8862",
+    "official": "https://www.veggtable.com/",
+    "status": "listed-active",
+    "sources": [
+      {
+        "url": "https://www.wowprime.com/zh-tw/business/strategy",
+        "title": "王品集團｜品牌發展與版圖（台灣）",
+        "checkedAt": "2026-10-26",
+        "method": "official-index",
+        "status": "verified"
+      },
+      {
+        "url": "https://www.veggtable.com/",
+        "title": "丰禾 台味風格料理",
+        "checkedAt": "2026-10-26",
+        "method": "official-site",
+        "status": "verified"
+      }
+    ],
+    "menu": "https://www.veggtable.com/menu.php"
+  }
+]

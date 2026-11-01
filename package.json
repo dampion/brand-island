@@ -1,0 +1,29 @@
+{
+  "name": "wowprime-brand-islands",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.22.1"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --experimental-strip-types --test tests/data.test.ts tests/collector.test.mjs tests/motion.test.ts tests/scene-rules.test.ts",
+    "test:e2e": "playwright test",
+    "collect": "node scripts/collect.mjs",
+    "review": "node scripts/review.mjs",
+    "research": "node scripts/research.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/three": "0.180.0",
+    "cheerio": "1.1.2",
+    "typescript": "5.9.3",
+    "vite": "7.1.12"
+  }
+}

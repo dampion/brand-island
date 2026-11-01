@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-10-26T13:51:02.783Z",
+  "results": [
+    {
+      "file": "heart-island.html",
+      "url": "https://puma.taipei/heart-island",
+      "sha256": "5da0cdfcfbf0723417dc21a4ed446195311038619fa97bb4f50c37f499bfd956",
+      "bytes": 13994,
+      "markers": []
+    },
+    {
+      "file": "app.js",
+      "url": "https://puma.taipei/heart-island-assets/app.js?v=20261025-3",
+      "sha256": "c4914257e89f903f3baac9a18a68c77124c0f50fffb9c22276f972cafeb7241d",
+      "bytes": 131538,
+      "markers": [
+        "OrbitControls",
+        "CSS2DRenderer",
+        "PerspectiveCamera",
+        "Raycaster",
+        "buildIslands",
+        "createPeople",
+        "policies.json"
+      ]
+    },
+    {
+      "file": "world.js",
+      "url": "https://puma.taipei/heart-island-assets/world.js?v=20261023-1",
+      "sha256": "3bcc4f74f429edb7e088ab52a42907e8cd41abc2d1894e34a45790001c7ab397",
+      "bytes": 26996,
+      "markers": ["buildIslands"]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "wangsteak",
+    "title": "王品牛排｜只款待心中最重要的人",
+    "menu": "https://www.wangsteak.com.tw/dishes.php",
+    "reservation": "https://wowfoods.cc/reserve_wangsteak",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "tasty",
+    "title": "TASTy西堤牛排",
+    "menu": "https://www.tasty.com.tw/menu/list.php",
+    "reservation": "https://wowfoods.cc/reserve_tasty",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "giguo",
+    "title": "聚 日式鍋物",
+    "menu": "https://www.giguo.com.tw/menu-list.php",
+    "reservation": "https://wowfoods.cc/reserve_giguo",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "12hotpot",
+    "title": "石二鍋",
+    "menu": "https://www.12hotpot.com.tw/menu-list.php",
+    "reservation": null,
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "chinhuajiao",
+    "title": "青花驕 - 我辣故我在",
+    "menu": "https://www.chinhuajiao.com/ingredients.php",
+    "reservation": "https://wowfoods.cc/reserve_chinhuajiao",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "12mini",
+    "title": "12mini",
+    "menu": "https://www.12mini.com.tw/menu.php",
+    "reservation": null,
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "wagyushabu",
+    "title": "和牛涮日式鍋物放題",
+    "menu": "https://www.wagyushabu.com.tw/index.php#menu",
+    "reservation": "https://inline.app/booking/-MM-iYDHB1_BTKd0cy5Q:inline-live-2/-MM-iYLgaNgE0O6unAPu?utm_source=web",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "godguo",
+    "title": "尬鍋 台式潮鍋",
+    "menu": "https://www.godguo.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_godguo",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "yakiyan",
+    "title": "原燒│日式燒肉",
+    "menu": "https://www.yakiyan.com/menu-list.php",
+    "reservation": "https://wowfoods.cc/reserve_yakiyan",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "powerofmeat",
+    "title": "肉次方 燒肉放題",
+    "menu": "https://www.powerofmeat.com.tw/menu-page",
+    "reservation": "https://wowfoods.cc/reserve_powerofmeat",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "chingu",
+    "title": "金咕친구 韓式原塊烤肉",
+    "menu": "https://www.chingubbq.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_chingubbq",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "chamonix",
+    "title": "夏慕尼新香榭鐵板燒",
+    "menu": "https://www.chamonix.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_chamonix",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "ikki",
+    "title": "藝奇 日式料理",
+    "menu": null,
+    "reservation": "https://wowfoods.cc/reserve_ikki",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "tokiya",
+    "title": "陶板屋 和風洋食",
+    "menu": "https://www.tokiya.com.tw/menu.php",
+    "reservation": null,
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "pinnada",
+    "title": "品田牧場",
+    "menu": "https://www.pinnada.com.tw/menu.php",
+    "reservation": null,
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "putien",
+    "title": "莆田PUTIEN",
+    "menu": "https://www.putien.com.tw/dishes.php",
+    "reservation": "https://wowfoods.cc/reserve_putien",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "xiangduck",
+    "title": "XIANG DUCK 享鴨",
+    "menu": "https://www.xiangduck.com.tw/menu.php",
+    "reservation": "https://wowfoods.cc/reserve_xiangduck",
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  },
+  {
+    "id": "veggtable",
+    "title": "丰禾 台味風格料理",
+    "menu": "https://www.veggtable.com/menu.php",
+    "reservation": null,
+    "checkedAt": "2026-10-26",
+    "verification": "來源 HTML 的實際連結；未自動判定訂位空位或是否可完成交易"
+  }
+]
