@@ -20,6 +20,16 @@ npm run preview
 
 正式輸出為 `dist/`，可由一般靜態網站主機提供。本次未部署、未建立 Sites 託管專案。
 
+### Cloudflare Workers 部署
+
+專案的 `wrangler.jsonc` 將 `dist/` 設為靜態資源目錄，Worker 名稱為 `brand-island`，並為單頁應用提供首頁備援。Cloudflare Workers Builds 設定：
+
+- Build command：`npm run build`
+- Deploy command：`npx wrangler deploy`
+- Root directory：專案根目錄
+
+本機部署先執行 `npm run build`，再執行 `npx wrangler deploy`。請將 `wrangler.jsonc` 一併提交；明確的靜態資源設定可避免 Wrangler 自動修改 Vite 設定或安裝 Cloudflare Vite 外掛。
+
 ## 操作
 
 - 拖曳旋轉，滾動／雙指縮放；點島嶼或名牌看品牌卡。
